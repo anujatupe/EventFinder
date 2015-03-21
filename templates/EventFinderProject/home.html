@@ -4,9 +4,15 @@
     <link href="{% static 'css/home.css' %}" rel="stylesheet">
 {% endblock %}
 {% block content %}
-
-<form id="categories_form" action="/events" method='post'>{% csrf_token %}
-{{ form.as_p }}
-<input type='submit' class="btn btn-success" value='Submit' />
-</form>
+<div style="display: table; margin: 0 auto;">
+    <div style="display: table-cell; vertical-align: middle">
+        <form id="categories_form" action="/events" method='post' >{% csrf_token %}
+            <h3>Choose the top three categories</h3>
+            {{ form.as_p }}
+            <div style="text-align: center">
+                <input text-align="center" type='submit' class="btn btn-success" value='Submit' />
+            </div>
+        </form>
+    </div>
+</div>
 {% endblock %}
