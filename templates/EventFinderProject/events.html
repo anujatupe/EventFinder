@@ -1,4 +1,8 @@
 {% extends "EventFinderProject/bootstrap_base.html" %}
+{% load staticfiles %}
+{% block css %}
+    <link href="{% static 'css/events.css' %}" rel="stylesheet">
+{% endblock %}
 {% block content %}
 <div>
 {% for event in events_list %}

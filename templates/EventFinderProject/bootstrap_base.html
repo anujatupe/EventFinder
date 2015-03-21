@@ -10,11 +10,13 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Event Finder</title>
 
     <!-- Bootstrap core CSS -->
     <!--<link href="/static/css/bootstrap.css" rel="stylesheet">-->
     <link href="{%  static "css/bootstrap.css" %}" rel="stylesheet">
+    {% block css %}
+    {%  endblock %}
     <!-- Custom styles for this template -->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -52,7 +54,7 @@
 
     <div class="container">
         <div style="padding-top: 100px;">
-             {% block content %}
+            {% block content %}
             {% endblock %}
         </div>
     </div><!-- /.container -->

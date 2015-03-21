@@ -1,7 +1,12 @@
 {% extends "EventFinderProject/bootstrap_base.html" %}
+{% load staticfiles %}
+{% block css %}
+    <link href="{% static 'css/home.css' %}" rel="stylesheet">
+{% endblock %}
 {% block content %}
-<form action="/events" method='post'>{% csrf_token %}
+
+<form id="categories_form" action="/events" method='post'>{% csrf_token %}
 {{ form.as_p }}
-<input type='submit' value='Submit' />
+<input type='submit' class="btn btn-success" value='Submit' />
 </form>
 {% endblock %}
