@@ -1,0 +1,1136 @@
+[21/Mar/2015 05:10:44] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:10:44] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:10:50] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:10:50] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:10:50] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:10:50] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:10:53] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:10:53] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:10:55] DEBUG [EventFinder.views:101] ****Events nearby are*****
+[21/Mar/2015 05:10:55] DEBUG [EventFinder.views:102] [u'Magical Strings West Spring Concert 2015', u"Ticket Sales Closing April 1st! Dance Basanti!~An Int'l Ladies Night~ Fashion Show ~ DJ Dance Party ~ Fundraiser For Grameen Education Fund", u'DIY Instruments', u'Jug Band Jam', u'Bollywood Night! Live Singing & Dancing at Moroccos Restaurant Dwntwn Mtn View']
+[21/Mar/2015 05:11:40] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:11:40] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:16:01] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:16:01] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:16:12] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:16:12] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:16:30] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:16:30] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:16:53] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:16:53] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:17:08] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:17:08] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:17:13] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:17:13] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:17:13] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:17:13] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:17:14] WARNING [django.request:143] Not Found: /favicon.ico
+[21/Mar/2015 05:17:18] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:17:18] DEBUG [EventFinder.views:83] {'category': [u'103', u'102']}
+[21/Mar/2015 05:17:25] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 97, in events
+    response = urllib2.urlopen(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 469, in error
+    result = self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 656, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 475, in error
+    return self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 558, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 500: INTERNAL SERVER ERROR
+[21/Mar/2015 05:18:58] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:18:58] DEBUG [django.db.backends:91] (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:19:04] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:19:04] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:19:04] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:19:04] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:19:10] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:19:10] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:19:10] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:19:10] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:19:15] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:19:15] DEBUG [EventFinder.views:83] {'category': [u'101', u'110']}
+[21/Mar/2015 05:19:22] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 97, in events
+    response = urllib2.urlopen(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 469, in error
+    result = self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 656, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 475, in error
+    return self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 558, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 500: INTERNAL SERVER ERROR
+[21/Mar/2015 05:19:52] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:19:52] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:20:12] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:20:12] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:20:17] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:20:17] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:20:17] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:20:17] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:20:20] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:20:20] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:20:22] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 97, in events
+    response = urllib2.urlopen(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 469, in error
+    result = self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 656, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 475, in error
+    return self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 558, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 500: INTERNAL SERVER ERROR
+[21/Mar/2015 05:20:33] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:20:33] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:20:41] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:20:41] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:20:48] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:20:48] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:20:48] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:20:48] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:20:50] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:20:50] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:21:00] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 97, in events
+    response = urllib2.urlopen(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 469, in error
+    result = self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 656, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 475, in error
+    return self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 558, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 500: INTERNAL SERVER ERROR
+[21/Mar/2015 05:21:31] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:21:31] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:21:38] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:21:38] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:21:44] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:21:44] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:21:44] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:21:44] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:22:02] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:22:02] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:23:56] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:23:56] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:24:00] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:24:00] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:24:17] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:24:17] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:24:17] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:24:17] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:24:21] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:24:21] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:50:47] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:50:47] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:50:51] WARNING [django.request:143] Not Found: /dist/css/bootstrap.min.css
+[21/Mar/2015 05:50:51] WARNING [django.request:143] Not Found: /starter-template.css
+[21/Mar/2015 05:50:51] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 05:50:51] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 05:50:51] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 05:51:09] WARNING [django.request:143] Not Found: /dist/css/bootstrap.min.css
+[21/Mar/2015 05:51:35] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:51:35] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:51:35] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:51:35] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:52:54] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:52:54] DEBUG [EventFinder.views:83] {'category': [u'110']}
+[21/Mar/2015 05:52:58] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 05:52:58] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 05:52:58] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 05:53:55] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:53:55] DEBUG [EventFinder.views:83] {'category': [u'110']}
+[21/Mar/2015 05:54:01] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 05:54:01] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 05:54:01] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 05:54:10] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:54:10] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:54:18] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:54:18] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:54:18] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:54:18] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:54:22] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:54:22] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:54:25] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 05:54:25] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 05:54:25] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 05:57:26] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:57:26] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:57:35] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:57:35] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:57:35] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:57:35] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:57:38] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:57:38] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:57:43] WARNING [django.request:143] Not Found: /static/css/bootstrap.css
+[21/Mar/2015 05:57:43] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 05:57:43] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 05:57:43] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 05:57:54] DEBUG [django.db.backends:91] (0.004) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:57:54] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:58:54] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 05:58:54] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 05:59:02] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 05:59:02] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 05:59:02] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 05:59:02] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 05:59:05] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 05:59:05] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 05:59:08] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 05:59:08] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 05:59:08] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 06:02:00] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:02:00] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:02:21] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:02:21] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:02:28] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 06:02:28] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 06:02:28] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 06:02:28] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 06:02:32] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 06:02:32] DEBUG [EventFinder.views:83] {'category': [u'105']}
+[21/Mar/2015 06:02:36] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 06:02:36] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 06:02:36] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 06:06:30] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:06:30] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:06:58] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:06:58] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:07:01] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:07:01] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 06:07:09] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 06:07:11] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 06:07:11] DEBUG [EventFinder.views:83] {'category': [u'101']}
+[21/Mar/2015 06:07:14] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 06:07:14] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 06:07:14] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 06:08:42] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:08:42] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:09:12] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:09:12] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 06:09:21] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 06:09:36] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 06:09:36] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 06:09:39] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 06:09:39] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 06:09:39] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 06:18:19] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:18:19] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:18:36] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:18:36] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:18:45] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 06:18:45] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 06:18:45] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 06:18:45] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 06:18:48] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 06:18:48] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 06:18:51] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 06:18:51] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 06:18:51] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 06:19:27] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:19:27] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:20:09] WARNING [django.request:143] Not Found: /static
+[21/Mar/2015 06:20:09] WARNING [django.request:143] Not Found: /favicon.ico
+[21/Mar/2015 06:20:29] DEBUG [django.db.backends:91] (0.007) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:20:29] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:21:42] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:21:42] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:24:18] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:24:18] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:26:01] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:26:01] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 06:26:03] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 06:26:03] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 18:53:42] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 18:53:42] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 18:53:49] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 18:53:52] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 18:53:52] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 18:53:54] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 18:53:55] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 18:53:55] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 18:54:59] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 18:54:59] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 18:55:03] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 18:55:03] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 18:55:03] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 18:55:03] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 18:55:06] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 18:55:06] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 18:55:09] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 18:55:09] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 18:55:09] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 18:59:17] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 18:59:17] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:01:56] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:01:56] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:02:07] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:02:07] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:02:10] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:02:10] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:02:10] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:02:16] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:02:16] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:02:19] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:02:19] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:02:19] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:04:10] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:04:10] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:05:41] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:05:41] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:05:44] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:05:44] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:05:55] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:05:55] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:12:29] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:12:29] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:12:42] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:12:42] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:12:45] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:12:45] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:12:45] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:12:45] WARNING [django.request:143] Not Found: /favicon.ico
+[21/Mar/2015 19:17:27] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:17:27] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:18:27] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:18:27] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:18:32] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:18:32] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:18:35] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:18:35] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:18:35] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:22:01] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:22:01] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:22:13] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 19:22:13] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 19:22:13] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 19:22:13] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 19:22:16] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:22:16] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:22:19] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 103, in events
+    return render_to_response("EventFinderProject/../templates/events.html", {"events_list" : events_list })
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/shortcuts.py", line 25, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: EventFinderProject/../templates/events.html
+[21/Mar/2015 19:22:35] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:22:35] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:22:39] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:22:39] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:22:44] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 87, in get_response
+    response = middleware_method(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/middleware/common.py", line 72, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/urlresolvers.py", line 619, in is_valid_path
+    resolve(path, urlconf)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/urlresolvers.py", line 494, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/urlresolvers.py", line 345, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/urlresolvers.py", line 224, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/urlresolvers.py", line 231, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named views
+[21/Mar/2015 19:22:54] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:22:54] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:23:11] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:23:11] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:23:15] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:23:15] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:23:18] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 103, in events
+    return render_to_response("EventFinderProject/../templates/events.html", {"events_list" : events_list })
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/shortcuts.py", line 25, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: EventFinderProject/../templates/events.html
+[21/Mar/2015 19:23:22] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:23:22] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:23:30] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:23:30] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:23:33] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 103, in events
+    return render_to_response("EventFinderProject/../templates/events.html", {"events_list" : events_list })
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/shortcuts.py", line 25, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: EventFinderProject/../templates/events.html
+[21/Mar/2015 19:23:36] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 19:23:36] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 19:23:36] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 19:23:36] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 19:23:39] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:23:39] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:23:41] ERROR [django.request:231] Internal Server Error: /events
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/anujatupe/PycharmProjects/EventFinderProject/EventFinder/views.py", line 103, in events
+    return render_to_response("EventFinderProject/../templates/events.html", {"events_list" : events_list })
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/shortcuts.py", line 25, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/template/loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: EventFinderProject/../templates/events.html
+[21/Mar/2015 19:24:37] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:24:37] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:24:42] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 19:24:42] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 19:24:42] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 19:24:42] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 19:24:45] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:24:45] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:24:49] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:24:49] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:24:49] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:32:20] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:32:20] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:32:33] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 19:32:33] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 19:32:33] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 19:32:33] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 19:32:35] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:32:35] DEBUG [EventFinder.views:83] {'category': [u'113']}
+[21/Mar/2015 19:32:38] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:32:38] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:32:38] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:33:39] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:33:39] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:33:47] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 19:33:47] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 19:33:47] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 19:33:47] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 19:33:49] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:33:49] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:33:51] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:33:51] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:33:51] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js
+[21/Mar/2015 19:36:15] DEBUG [django.db.backends:91] (0.002) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:36:15] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:36:20] DEBUG [django.db.backends:91] (0.001) QUERY = "\n            SELECT name FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[21/Mar/2015 19:36:20] DEBUG [django.db.backends:91] (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[21/Mar/2015 19:36:25] DEBUG [EventFinder.views:65] Geo location is...
+[21/Mar/2015 19:36:25] DEBUG [EventFinder.views:66] {'city': u'Mountain View', 'continent_code': u'NA', 'region': u'CA', 'charset': 0, 'area_code': 650, 'longitude': -122.05740356445312, 'country_code3': u'USA', 'latitude': 37.4192008972168, 'postal_code': u'94043', 'dma_code': 807, 'country_code': u'US', 'country_name': u'United States'}
+[21/Mar/2015 19:36:25] DEBUG [EventFinder.views:70] FORM IS :
+[21/Mar/2015 19:36:25] DEBUG [EventFinder.views:71] <tr><th><label for="id_category_0">Category:</label></th><td><ul id="id_category">
+<li><label for="id_category_0"><input id="id_category_0" name="category" type="checkbox" value="103" /> Music</label></li>
+<li><label for="id_category_1"><input id="id_category_1" name="category" type="checkbox" value="101" /> Business &amp; Professional</label></li>
+<li><label for="id_category_2"><input id="id_category_2" name="category" type="checkbox" value="110" /> Food &amp; Drink</label></li>
+<li><label for="id_category_3"><input id="id_category_3" name="category" type="checkbox" value="113" /> Community &amp; Culture</label></li>
+<li><label for="id_category_4"><input id="id_category_4" name="category" type="checkbox" value="105" /> Performing &amp; Visual Arts</label></li>
+<li><label for="id_category_5"><input id="id_category_5" name="category" type="checkbox" value="104" /> Film, Media &amp; Entertainment</label></li>
+<li><label for="id_category_6"><input id="id_category_6" name="category" type="checkbox" value="108" /> Sports &amp; Fitness</label></li>
+<li><label for="id_category_7"><input id="id_category_7" name="category" type="checkbox" value="107" /> Health &amp; Wellness</label></li>
+<li><label for="id_category_8"><input id="id_category_8" name="category" type="checkbox" value="102" /> Science &amp; Technology</label></li>
+<li><label for="id_category_9"><input id="id_category_9" name="category" type="checkbox" value="109" /> Travel &amp; Outdoor</label></li>
+<li><label for="id_category_10"><input id="id_category_10" name="category" type="checkbox" value="111" /> Charity &amp; Causes</label></li>
+<li><label for="id_category_11"><input id="id_category_11" name="category" type="checkbox" value="114" /> Religion &amp; Spirituality</label></li>
+<li><label for="id_category_12"><input id="id_category_12" name="category" type="checkbox" value="115" /> Family &amp; Education</label></li>
+<li><label for="id_category_13"><input id="id_category_13" name="category" type="checkbox" value="116" /> Seasonal &amp; Holiday</label></li>
+<li><label for="id_category_14"><input id="id_category_14" name="category" type="checkbox" value="112" /> Government &amp; Politics</label></li>
+<li><label for="id_category_15"><input id="id_category_15" name="category" type="checkbox" value="106" /> Fashion &amp; Beauty</label></li>
+<li><label for="id_category_16"><input id="id_category_16" name="category" type="checkbox" value="117" /> Home &amp; Lifestyle</label></li>
+<li><label for="id_category_17"><input id="id_category_17" name="category" type="checkbox" value="118" /> Auto, Boat &amp; Air</label></li>
+<li><label for="id_category_18"><input id="id_category_18" name="category" type="checkbox" value="119" /> Hobbies &amp; Special Interest</label></li>
+<li><label for="id_category_19"><input id="id_category_19" name="category" type="checkbox" value="199" /> Other</label></li>
+</ul></td></tr>
+[21/Mar/2015 19:36:29] DEBUG [EventFinder.views:82] The content is:
+[21/Mar/2015 19:36:29] DEBUG [EventFinder.views:83] {'category': [u'103']}
+[21/Mar/2015 19:36:32] WARNING [django.request:143] Not Found: /assets/js/ie-emulation-modes-warning.js
+[21/Mar/2015 19:36:32] WARNING [django.request:143] Not Found: /dist/js/bootstrap.min.js
+[21/Mar/2015 19:36:32] WARNING [django.request:143] Not Found: /assets/js/ie10-viewport-bug-workaround.js

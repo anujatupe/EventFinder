@@ -1,0 +1,8 @@
+{% extends "EventFinderProject/base.html" %}
+{% block content %}
+<h1>This is a home page</h1>
+<form action="/events" method='post'>{% csrf_token %}
+{{ form.as_p }}
+<input type='submit' value='Submit' />
+</form>
+{% endblock %}
