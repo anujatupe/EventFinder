@@ -28,17 +28,15 @@ def events(request):
         g = GeoIP()
         g.city(request.META['REMOTE_ADDR'])
         geo_location = g.city('74.125.79.147')
-        logger.debug("The content is:")
-        logger.debug(form.cleaned_data)
-        REQUEST_PARAMS = urllib.urlencode({
+        request_params = urllib.urlencode({
                                             "token" : "BJCBWSGK6STWD6FRC3UQ",
-                                            "categories" : "103,109",
+                                            "categories" : ','.join(form.cleaned_data.get('category', [])),
                                             "location.latitude" : geo_location['latitude'],
                                             "location.longitude" : geo_location['longitude'],
                                             "location.within" : "4mi",
                                             "sort_by" : "date"
                                         })
-        events_url = "https://www.eventbriteapi.com/v3/events/search?"+REQUEST_PARAMS
+        events_url = "https://www.eventbriteapi.com/v3/events/search?"+request_params
         request = urllib2.Request(events_url)
         response = urllib2.urlopen(request)
         resp_parsed = json.loads(response.read())
