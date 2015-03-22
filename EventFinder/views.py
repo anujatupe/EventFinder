@@ -41,5 +41,7 @@ def events(request):
         response = urllib2.urlopen(request)
         resp_parsed = json.loads(response.read())
         events_list = resp_parsed.get('events', None)
+        logger.debug("FIRST EVENT:")
+        logger.debug(events_list[0])
         return render_to_response("EventFinderProject/events.html", {"events_list" : events_list })
     return render_to_response("EventFinderProject/events.html", "No name")

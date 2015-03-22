@@ -15,6 +15,8 @@
     <!-- Bootstrap core CSS -->
     <!--<link href="/static/css/bootstrap.css" rel="stylesheet">-->
     <link href="{%  static "css/bootstrap.css" %}" rel="stylesheet">
+    <link href="{%  static "css/override_bootstrap.css" %}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,400italic,500italic,400' rel='stylesheet' type='text/css'>
     {% block css %}
     {%  endblock %}
     <!-- Custom styles for this template -->
@@ -52,7 +54,7 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="">
         <div style="padding-top: 100px;">
             {% block content %}
             {% endblock %}
