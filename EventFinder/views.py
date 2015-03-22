@@ -25,6 +25,8 @@ def home(request):
 @csrf_exempt
 def events(request):
     if request.method == 'POST':
+        logger.debug("REQUEST OBJECT IS ***********")
+        logger.debug(request)
         form = CategoriesForm(request.POST)
         if form.is_valid():
             g = GeoIP()
@@ -46,13 +48,22 @@ def events(request):
             events_list = resp_parsed.get('events', None)
             # logger.debug("FIRST EVENT:")
             # logger.debug(events_list[0])
-            next_events_url = "?page=2&user_categories="+','.join(form.cleaned_data.get('category', []))
-            return render_to_response("EventFinderProject/events.html", {"events_list" : events_list, "next_events_url" : next_events_url })
+            #   next_events_url = "?page=2&user_categories="+','.join(form.cleaned_data.get('category', []))
+            next_events_url = urllib.urlencode({
+                "page" : 2,
+                "user_categories" : ','.join(form.cleaned_data.get('category', []))
+            })
+            return render_to_response("EventFinderProject/events.html", {"events_list" : events_list, "next_events_url" : "?"+next_events_url })
     elif request.method == 'GET':
+        logger.debug("REQUEST OBJECT IS ***********")
+        logger.debug(request)
         user_categories = request.GET.get('user_categories', '')
         page = int(request.GET.get('page', '0')) + 1
-        next_events_url = "?page="+str(page)+"&user_categories="+user_categories
-        #total_pages = request.GET.get('total_pages', '')
+        #next_events_url = "?page="+str(page)+"&user_categories="+user_categories
+        next_events_url = urllib.urlencode({
+            "page" : str(page),
+            "user_categories" : user_categories
+        })
         g = GeoIP()
         g.city(request.META['REMOTE_ADDR'])
         geo_location = g.city('74.125.79.147')
@@ -72,7 +83,7 @@ def events(request):
         events_list = resp_parsed.get('events', None)
         # logger.debug("FIRST EVENT:")
         # logger.debug(events_list[0])
-        return render_to_response("EventFinderProject/events.html", {"events_list" : events_list, "next_events_url" : next_events_url })
+        return render_to_response("EventFinderProject/events.html", {"events_list" : events_list, "next_events_url" : "?"+next_events_url })
     return render_to_response("EventFinderProject/events.html", "No name")
 
 
