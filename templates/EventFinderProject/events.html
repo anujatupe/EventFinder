@@ -20,7 +20,7 @@
                 <b>{{ event.name.text }}</b>
             </div>
              <div style="font-size: 16px; text-overflow: ellipsis; white-space: nowrap; width: 100%; overflow: hidden; text-align: left; ">
-                 <b>{{ event.start.local}}</b>
+                 <b>{{ event.start.local|events_date_filter}}</b>
 
             </div>
         </div>

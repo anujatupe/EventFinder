@@ -6,6 +6,8 @@ import logging
 import urllib2
 import urllib
 import json
+from time import gmtime, strftime
+from datetime import datetime
 from django.template import *
 
 # Create your views here.
@@ -48,6 +50,14 @@ def events(request):
                             })
         request_params = urllib.urlencode(request_params)
         events_list = _get_events(request_params)
+        # logger.debug("TIME IN A DIFFERENT FORMAT")
+        # logger.debug(type(events_list[0]['start']['local']))
+        # time_obj = datetime.strptime(events_list[0]['start']['local'], '%Y-%m-%dT%H:%M:%S')
+        # logger.debug(type(time_obj))
+        #time_obj.strftime("%a, %d %b %Y %H:%M")
+        # time_obj.strftime("%B %d, %Y")
+        #events_list[0]['start']['local'].strptime()
+        # logger.debug(time_obj)
         return render_to_response("EventFinderProject/events.html", {"events_list" : events_list, "previous_events_url": "?"+previous_events_url, "next_events_url": "?"+next_events_url, "previous" : previous_enabled, "next" : "" })
 
 

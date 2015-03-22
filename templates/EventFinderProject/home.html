@@ -1,5 +1,8 @@
 {% extends "EventFinderProject/bootstrap_base.html" %}
 {% load staticfiles %}
+{% block header %}
+    <script src="{% static 'js/home.js' %}"></script>
+{% endblock %}
 {% block css %}
     <link href="{% static 'css/home.css' %}" rel="stylesheet">
 {% endblock %}
