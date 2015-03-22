@@ -14,7 +14,7 @@
 <div id="form_table_container">
   <div id="form_table_cell_container">
     <form id="categories_form" action="/events" method='get' >{% csrf_token %}
-      <h3>Choose the top three categories of events you are interested in</h3>
+      <h3 style="width: 358px;" class="text-center">Choose the top three categories of events you are interested in</h3>
       <div id="form_error" class="alert alert-danger" role="alert">Choose no more than 3 categories</div>
       {{ form.as_p }}
       <div id="submit_button_container">
