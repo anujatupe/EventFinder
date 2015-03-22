@@ -55,7 +55,6 @@ WSGI_APPLICATION = 'EventFinderProject.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -65,7 +64,6 @@ DATABASES = {
 }
 
 # Internationalization
-# https://docs.djangoproject.com/en/1.7/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
@@ -80,9 +78,7 @@ USE_TZ = True
 GEOIP_PATH = os.path.join(BASE_DIR,  'geoipfiles')
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_ROOT = ''
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
