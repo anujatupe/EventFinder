@@ -34,8 +34,8 @@ def events(request):
     """
 
     g = GeoIP()
-    g.city(request.META['REMOTE_ADDR'])
-    geo_location = g.city('74.125.79.147')
+    ip_address = '74.125.79.147' if request.META['REMOTE_ADDR'] == '127.0.0.1' else request.META['REMOTE_ADDR']
+    geo_location = g.city(ip_address)
     form = CategoriesForm(request.GET)
     request_params = {
                         "token": "BJCBWSGK6STWD6FRC3UQ",
