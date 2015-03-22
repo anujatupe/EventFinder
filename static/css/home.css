@@ -1,9 +1,28 @@
+#form_table_container {
+  display: table;
+  margin: 0 auto;
+}
+
+#form_table_cell_container {
+  display: table-cell;
+  vertical-align: middle
+}
+
+#form_error {
+  text-align:center;
+  display: none;
+  padding: 4px;
+}
 
 #categories_form {
-    padding: 32px 128px 32px 128px;
-    background-color: gainsboro;
+  padding: 32px 128px 32px 128px;
+  background-color: gainsboro;
 }
 
 #categories_form > p > label {
-    display: none;
+  display: none;
+}
+
+#submit_button_container {
+  text-align: center
 }

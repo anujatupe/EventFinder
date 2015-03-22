@@ -1,22 +1,26 @@
 {% extends "EventFinderProject/bootstrap_base.html" %}
+
 {% load staticfiles %}
+
 {% block header %}
-    <script src="{% static 'js/home.js' %}"></script>
+  <script src="{% static 'js/home.js' %}"></script>
 {% endblock %}
+
 {% block css %}
-    <link href="{% static 'css/home.css' %}" rel="stylesheet">
+  <link href="{% static 'css/home.css' %}" rel="stylesheet">
 {% endblock %}
+
 {% block content %}
-<div style="display: table; margin: 0 auto;">
-    <div style="display: table-cell; vertical-align: middle">
-        <form id="categories_form" action="/events" method='get' >{% csrf_token %}
-            <h3>Choose the top three categories</h3>
-            <div id="form_error" class="alert alert-danger" role="alert" style="text-align:center; display: none; padding: 4px;">Choose no more than 3 categories</div>
-            {{ form.as_p }}
-            <div style="text-align: center">
-                <input id="submit_categories" text-align="center" type='submit' class="btn btn-success" disabled="true" value='Get Events' />
-            </div>
-        </form>
-    </div>
+<div id="form_table_container">
+  <div id="form_table_cell_container">
+    <form id="categories_form" action="/events" method='get' >{% csrf_token %}
+      <h3>Choose the top three categories</h3>
+      <div id="form_error" class="alert alert-danger" role="alert">Choose no more than 3 categories</div>
+      {{ form.as_p }}
+      <div id="submit_button_container">
+        <input id="submit_categories" text-align="center" type='submit' class="btn btn-success" disabled="true" value='Get Events' />
+      </div>
+    </form>
+  </div>
 </div>
 {% endblock %}

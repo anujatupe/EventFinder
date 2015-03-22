@@ -14,17 +14,11 @@
     <title>Event Finder</title>
 
     <!-- Bootstrap core CSS -->
-    <!--<link href="/static/css/bootstrap.css" rel="stylesheet">-->
     <link href="{%  static "css/bootstrap.css" %}" rel="stylesheet">
     <link href="{%  static "css/override_bootstrap.css" %}" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:500,400italic,500italic,400' rel='stylesheet' type='text/css'>
     {% block css %}
     {%  endblock %}
-    <!-- Custom styles for this template -->
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -48,10 +42,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <!--<li class="active"><a href="">Categories</a></li>-->
-
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
@@ -60,7 +52,7 @@
             {% block content %}
             {% endblock %}
         </div>
-    </div><!-- /.container -->
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

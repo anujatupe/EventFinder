@@ -19,7 +19,7 @@ def home(request):
     Returns :
         Sends categories to the events page for getting the events related to the categories
     """
-
+    
     form = CategoriesForm()
     return render_to_response("EventFinderProject/home.html", {'form': form})
 

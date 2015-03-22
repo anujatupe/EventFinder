@@ -1,0 +1,49 @@
+.font-20 {
+  font-size: 20px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#info_text {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+#events_container {
+  overflow: auto;
+}
+
+.event_box {
+  height: 292px;
+  width: 292px;
+  padding:16px;
+  background-color: gainsboro;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  vertical-align: top;
+}
+
+.event_image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+.event-detail {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+}

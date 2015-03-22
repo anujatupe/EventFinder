@@ -1,44 +1,47 @@
 {% extends "EventFinderProject/bootstrap_base.html" %}
+
 {% load staticfiles %}
+
 {% block css %}
-    <link href="{% static 'css/events.css' %}" rel="stylesheet">
+  <link href="{% static 'css/events.css' %}" rel="stylesheet">
 {% endblock %}
+
 {% block content %}
-{% load events_filter %}
-<div style="width: 100%; text-align: center; font-size: 20px; padding-bottom: 16px;">Showing events around you - 20 Miles</div>
-<nav>
-  <ul class="pager">
-    <li class="{{previous}}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
-    <li class="{{next}}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
-  </ul>
-</nav>
-<div style="text-align: center; overflow: auto;">
-{% for event in events_list %}
+  {% load events_filter %}
 
-        <div style="height: 292px; width: 292px; padding:16px; background-color: gainsboro; display: inline-block;  margin-right: 8px; margin-bottom: 8px; vertical-align: top;">
-            <img src="{{ event.logo.url }}" style="height: 100px; width: 100px; margin-bottom: 12px; ">
+  <div id="info_text" class="font-20 text-center" >Showing events around you - 20 Miles</div>
 
-            <div style="font-size: 16px; text-overflow: ellipsis; white-space: nowrap; width: 100%; overflow: hidden; text-align: left; ">
-                <b>{{event.name.text}}</b>
-            </div>
+  <nav>
+    <ul class="pager">
+      <li class="{{previous}}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
+      <li class="{{next}}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
+    </ul>
+  </nav>
 
-            <div style="font-size: 14px; text-overflow: ellipsis; white-space: nowrap; width: 100%; overflow: hidden; text-align: left; ">
-                 <i>{{event.description.text}}</i>
-            </div>
-            <div style="font-size: 14px; text-overflow: ellipsis; white-space: nowrap; width: 100%; overflow: hidden; text-align: left; ">
-                 <b>{{event.start.local|events_date_filter}}</b>
-            </div>
-            <div style="font-size: 14px; text-overflow: ellipsis; white-space: nowrap; width: 100%; overflow: hidden; text-align: left; ">
-                 <b>{{event.venue.address.city}}, {{event.venue.address.region}}</b>
-            </div>
-        </div>
+  <div id="events_container" class="text-center" >
+  {% for event in events_list %}
+    <div class="event_box">
+      <img class="event_image" src="{{ event.logo.url }}">
+      <div class="event-detail font-16">
+        <b>{{event.name.text}}</b>
+      </div>
+      <div class="event-detail font-14">
+         <i>{{event.description.text}}</i>
+      </div>
+      <div class="event-detail font-14">
+         <b>{{event.start.local|events_date_filter}}</b>
+      </div>
+      <div class="event-detail font-14">
+         <b>{{event.venue.address.city}}, {{event.venue.address.region}}</b>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
 
-{% endfor %}
-</div>
-<nav>
-  <ul class="pager">
-    <li class="{{ previous }}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
-    <li class="{{ next }}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
-  </ul>
-</nav>
+  <nav>
+    <ul class="pager">
+      <li class="{{ previous }}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
+      <li class="{{ next }}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
+    </ul>
+  </nav>
 {% endblock %}
