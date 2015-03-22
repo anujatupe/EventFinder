@@ -15,11 +15,11 @@ def home(request):
     """Route for the landing page - choose the categories for the events to be searched
 
     Args:
-        request : request object
-    Returns :
+        request: request object
+    Returns:
         Sends categories to the events page for getting the events related to the categories
     """
-    
+
     form = CategoriesForm()
     return render_to_response("EventFinderProject/home.html", {'form': form})
 
