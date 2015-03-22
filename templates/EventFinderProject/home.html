@@ -6,7 +6,7 @@
 {% block content %}
 <div style="display: table; margin: 0 auto;">
     <div style="display: table-cell; vertical-align: middle">
-        <form id="categories_form" action="/events" method='post' >{% csrf_token %}
+        <form id="categories_form" action="/events" method='get' >{% csrf_token %}
             <h3>Choose the top three categories</h3>
             {{ form.as_p }}
             <div style="text-align: center">

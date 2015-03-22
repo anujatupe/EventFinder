@@ -8,8 +8,8 @@
 <div style="width: 100%; text-align: center; font-size: 20px; padding-bottom: 16px;">Showing events around you - 20 Miles</div>
 <nav>
   <ul class="pager">
-    <li><a href="#">Previous</a></li>
-    <li><a href="{{ request.path }}{{ next_events_url }}">Next</a></li>
+    <li class="{{ previous }}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
+    <li class="{{ next }}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
   </ul>
 </nav>
 <div style="text-align: center; overflow: auto;">
