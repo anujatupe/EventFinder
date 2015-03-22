@@ -12,15 +12,8 @@ from django.template import *
 logger = logging.getLogger(__name__)
 
 def home(request):
-    if request.method == 'GET':
-        g = GeoIP()
-        geo_location = g.city('74.125.79.147')
-        logger.debug("Geo location is...")
-        logger.debug(geo_location)
-        form = CategoriesForm()
-    c = {}
-    c.update({'form': form})
-    return render_to_response("EventFinderProject/home.html", c)
+    form = CategoriesForm()
+    return render_to_response("EventFinderProject/home.html", {'form': form})
 
 @csrf_exempt
 def events(request):
