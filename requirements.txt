@@ -4,7 +4,6 @@ altgraph==0.10.1
 bdist-mpkg==0.4.4
 macholib==1.5
 modulegraph==0.10.1
-numpy==1.6.2
 py2app==0.7.1
 pyOpenSSL==0.13.1
 pyobjc-core==2.3.2a0
