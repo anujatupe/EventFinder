@@ -15,9 +15,9 @@ class CategoriesForm(forms.Form):
   resp_parsed = json.loads(response.read())
   categories = resp_parsed.get('categories', None)
   if(categories):
-      categories_list = [(each['id'], each['name']) for each in categories]
-      CATEGORY_CHOICES = tuple(categories_list)
+    categories_list = [(each['id'], each['name']) for each in categories]
+    CATEGORY_CHOICES = tuple(categories_list)
 
   category = forms.MultipleChoiceField(required=True,
-       widget=forms.CheckboxSelectMultiple, choices=CATEGORY_CHOICES)
+    widget=forms.CheckboxSelectMultiple, choices=CATEGORY_CHOICES)
 
