@@ -75,7 +75,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-GEOIP_PATH = os.path.join(BASE_DIR,  'geoipfiles')
+GEOIP_PATH = os.path.join('/app/GeoLiteCity.dat')
 
 # Static files (CSS, JavaScript, Images)
 
