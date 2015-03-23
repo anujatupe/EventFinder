@@ -29,7 +29,10 @@
          <i>{{event.description.text}}</i>
       </div>
       <div class="event-detail font-14">
-         <b>{{event.start.local|events_date_filter}}</b>
+         <b>Start - {{event.start.local|events_date_filter}}</b>
+      </div>
+      <div class="event-detail font-14">
+         <b>End - {{event.end.local|events_date_filter}}</b>
       </div>
       <div class="event-detail font-14">
          <b>{{event.venue.address.city}}, {{event.venue.address.region}}</b>
