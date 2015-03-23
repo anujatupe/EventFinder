@@ -4,10 +4,6 @@ from django.shortcuts import render_to_response
 from EventFinder.forms import CategoriesForm
 from EventFinder.helpers.events_helper import _get_events, _get_next_previous_event_urls, _get_previous_next_link_status, _update_urlencode_request_params
 import logging
-import urllib2
-import urllib
-import json
-from django.template import *
 from EventFinderProject.settings import EVENTBRITE_API_KEY
 
 # Initialize the logger

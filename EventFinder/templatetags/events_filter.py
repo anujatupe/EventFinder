@@ -15,3 +15,7 @@ def events_date_filter(value):
 
   time_obj = datetime.strptime(value, '%Y-%m-%dT%H:%M:%S')
   return time_obj
+
+@register.filter(name='event_image_filter')
+def event_image_filter(image_src):
+  return image_src if image_src != "" else "/static/images/default_events.png"

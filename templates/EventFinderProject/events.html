@@ -25,7 +25,7 @@
   <div id="events_container" class="text-center" >
   {% for event in events_list %}
     <div class="event_box">
-      <img class="event_image" src="{{ event.logo.url }}">
+      <img class="event_image" src="{{ event.logo.url|event_image_filter }}">
       <div class="event-detail font-16">
         <b>{{event.name.text}}</b>
       </div>
