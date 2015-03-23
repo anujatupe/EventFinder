@@ -34,7 +34,7 @@ def events(request):
   """
 
   g = GeoIP()
-  ip_address = '74.125.79.147' if request.META['REMOTE_ADDR'] == '127.0.0.1' else request.META['REMOTE_ADDR']
+  ip_address = '74.125.79.147' if request.META['HTTP_X_FORWARDED_FOR'] == '127.0.0.1' else request.META['HTTP_X_FORWARDED_FOR']
   geo_location = g.city(ip_address)
   form = CategoriesForm(request.GET)
   request_params = {
