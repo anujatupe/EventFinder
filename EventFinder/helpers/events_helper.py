@@ -1,6 +1,7 @@
 import urllib2
 import urllib
 import json
+from EventFinderProject.settings import EVENTS_API_URL
 
 def _get_events(request_params):
   """Makes an API call to Eventbrite and gets all the events related to the categories that user wants
@@ -13,7 +14,7 @@ def _get_events(request_params):
     Also, returns the page count i.e. the total number of pages having the events.
   """
 
-  events_url = "https://www.eventbriteapi.com/v3/events/search?"+request_params
+  events_url = EVENTS_API_URL+request_params
   request = urllib2.Request(events_url)
   response = urllib2.urlopen(request)
   resp_parsed = json.loads(response.read())

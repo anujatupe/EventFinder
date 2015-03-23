@@ -122,3 +122,8 @@ TEMPLATE_DIRS = (
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = ("django.core.context_processors.request")
+
+# Constants needed by the other files
+EVENTBRITE_API_KEY = "BJCBWSGK6STWD6FRC3UQ"
+EVENTS_API_URL = "https://www.eventbriteapi.com/v3/events/search?"
+EVENTS_CATEGORIES_URL = "https://www.eventbriteapi.com/v3/categories/?"

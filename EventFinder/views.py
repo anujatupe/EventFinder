@@ -8,6 +8,7 @@ import urllib2
 import urllib
 import json
 from django.template import *
+from EventFinderProject.settings import EVENTBRITE_API_KEY
 
 # Initialize the logger
 logger = logging.getLogger(__name__)
@@ -39,7 +40,7 @@ def events(request):
   geo_location = g.city(ip_address)
   form = CategoriesForm(request.GET)
   request_params = {
-                      "token": "BJCBWSGK6STWD6FRC3UQ",
+                      "token": EVENTBRITE_API_KEY,
                       "location.latitude": geo_location['latitude'],
                       "location.longitude": geo_location['longitude'],
                       "location.within": "20mi",
