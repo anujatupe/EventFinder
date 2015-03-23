@@ -1,1 +1,1 @@
-web: gunicorn {{ EventFinderProject }}.wsgi --log-file -
+web: gunicorn EventFinderProject.wsgi --log-file -
