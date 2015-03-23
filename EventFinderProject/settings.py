@@ -79,9 +79,10 @@ GEOIP_PATH = os.path.join(BASE_DIR,  'geoipfiles')
 
 # Static files (CSS, JavaScript, Images)
 
-STATIC_ROOT = ''
+STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 LOGGING = {
     'version': 1,
