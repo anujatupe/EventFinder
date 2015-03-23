@@ -5,7 +5,7 @@ import json
 
 class CategoriesForm(forms.Form):
   """Categories forms - Makes a call to Eventbrite API to get the categories of events which are present and
-     and display it in a form. 
+     and display it in a form.
   """
   APP_TOKEN = urllib.urlencode({"token" : "BJCBWSGK6STWD6FRC3UQ"})
   categories_url = "https://www.eventbriteapi.com/v3/categories/?"+APP_TOKEN

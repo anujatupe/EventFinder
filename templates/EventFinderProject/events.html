@@ -2,6 +2,10 @@
 
 {% load staticfiles %}
 
+{% block header %}
+  <script src="{% static 'js/events.js' %}"></script>
+{% endblock %}
+
 {% block css %}
   <link href="{% static 'css/events.css' %}" rel="stylesheet">
 {% endblock %}
@@ -13,8 +17,8 @@
 
   <nav>
     <ul class="pager">
-      <li class="{{previous}}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
-      <li class="{{next}}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
+      <li class="{{previous}}"><a href="{{ request.path }}{{ previous_events_url }}" {{previous}} >Previous</a></li>
+      <li class="{{next}}"><a href="{{ request.path }}{{ next_events_url }}" {{next}}>Next</a></li>
     </ul>
   </nav>
 
@@ -43,8 +47,8 @@
 
   <nav>
     <ul class="pager">
-      <li class="{{ previous }}"><a href="{{ request.path }}{{ previous_events_url }}" >Previous</a></li>
-      <li class="{{ next }}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
+      <li class="{{ previous }}"><a href="{{ request.path }}{{ previous_events_url }}" {{previous}}>Previous</a></li>
+      <li class="{{ next }}"><a href="{{ request.path }}{{ next_events_url }}" {{ next }}>Next</a></li>
     </ul>
   </nav>
 {% endblock %}

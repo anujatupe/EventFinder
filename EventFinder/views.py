@@ -2,7 +2,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.contrib.gis.geoip import GeoIP
 from django.shortcuts import render_to_response
 from EventFinder.forms import CategoriesForm
-from EventFinder.helpers.events_helper import _get_events, _get_next_previous_event_urls
+from EventFinder.helpers.events_helper import _get_events, _get_next_previous_event_urls, _get_previous_next_link_status
 import logging
 import urllib2
 import urllib
@@ -46,27 +46,32 @@ def events(request):
                       "sort_by": "date"
                   }
   if form.is_valid():
+    categories_string = ','.join(form.cleaned_data.get('category', []))
     request_params.update({
-                            "categories": ','.join(form.cleaned_data.get('category', [])),
+                            "categories": categories_string,
                             "page": 1
                         })
     request_params = urllib.urlencode(request_params)
     events_list, page_count = _get_events(request_params)
-    previous_events_url, next_events_url = _get_next_previous_event_urls(1, ','.join(form.cleaned_data.get('category', [])), 50)
-    next_enabled = "disabled" if page_count == 1 else ""
+    previous_events_url, next_events_url = _get_next_previous_event_urls(1, categories_string, page_count)
+    #next_enabled = "disabled" if page_count == 1 else ""
+    previous_enabled, next_enabled = _get_previous_next_link_status(page_count, 1)
     return render_to_response("EventFinderProject/events.html", {"events_list": events_list, "previous_events_url": previous_events_url, "next_events_url": "?"+next_events_url, "previous": "disabled", "next": next_enabled })
   else:
     user_categories = request.GET.get('user_categories', '')
     page = int(request.GET.get('page', '0'))
-    previous_enabled = "disabled" if (page <= 1) else ""
-    previous_events_url, next_events_url = _get_next_previous_event_urls(page, user_categories, 50)
+
+
     request_params.update({
                             "categories": user_categories,
                             "page": page
                         })
     request_params = urllib.urlencode(request_params)
     events_list, page_count = _get_events(request_params)
-    next_enabled = "disabled" if page_count == page else ""
+    previous_events_url, next_events_url = _get_next_previous_event_urls(page, user_categories, page_count)
+    # previous_enabled = "disabled" if (page <= 1) else ""
+    # next_enabled = "disabled" if page_count == page else ""
+    previous_enabled, next_enabled = _get_previous_next_link_status(page_count, page)
     return render_to_response("EventFinderProject/events.html", {"events_list" : events_list, "previous_events_url": "?"+previous_events_url, "next_events_url": "?"+next_events_url, "previous" : previous_enabled, "next" : next_enabled })
 
 

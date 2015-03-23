@@ -39,6 +39,12 @@ def _get_next_previous_event_urls(page, user_categories, page_count):
   next_events_url = urllib.urlencode({
       "page": str(page + 1),
       "user_categories": user_categories
-  }) if (page_count == 50) else ""
+  }) if (page < page_count) else ""
 
   return previous_events_url, next_events_url
+
+
+def _get_previous_next_link_status(page_count, page):
+  previous_enabled = "disabled" if (page <= 1) else ""
+  next_enabled = "disabled" if page_count == page else ""
+  return previous_enabled, next_enabled
