@@ -30,7 +30,7 @@
         <b>{{event.name.text}}</b>
       </div>
       <div class="event-detail font-14">
-         <i>{{event.description.text}}</i>
+         <i>{{event.description.text|desc_filter}}</i>
       </div>
       <div class="event-detail font-14">
          <b>Start - {{event.start.local|events_date_filter}}</b>
@@ -39,7 +39,7 @@
          <b>End - {{event.end.local|events_date_filter}}</b>
       </div>
       <div class="event-detail font-14">
-         <b>{{event.venue.address.city}}, {{event.venue.address.region}}</b>
+         <b>{{event.venue.address.city|city_filter:event.venue.address.region}} {{event.venue.address.region|region_filter}}</b>
       </div>
       <div class="event-detail font-14">
          <a href="{{ event.url }}"><b>Details</b></a>
