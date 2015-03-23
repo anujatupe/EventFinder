@@ -53,7 +53,7 @@ def events(request):
     events_list, page_count = _get_events(request_params)
     previous_events_url, next_events_url = _get_next_previous_event_urls(1, ','.join(form.cleaned_data.get('category', [])), 50)
     next_enabled = "disabled" if page_count == 1 else ""
-    return render_to_response("EventFinderProject/events.html", {"events_list": events_list, "previous_events_url": previous_events_url, "next_events_url": "?"+next_events_url, "previous": "disabled", "next": next_enabled, 'ip_addr' : request.META['HTTP_X_FORWARDED_FOR'], 'ipaddrget' : request.META.get('HTTP_X_FORWARDED_FOR'), 'ipaddrgetdef' : request.META.get('HTTP_X_FORWARDED_FOR', '74.125.79.147')})
+    return render_to_response("EventFinderProject/events.html", {"events_list": events_list, "previous_events_url": previous_events_url, "next_events_url": "?"+next_events_url, "previous": "disabled", "next": next_enabled })
   else:
     user_categories = request.GET.get('user_categories', '')
     page = int(request.GET.get('page', '0'))

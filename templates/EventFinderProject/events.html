@@ -17,11 +17,6 @@
       <li class="{{next}}"><a href="{{ request.path }}{{ next_events_url }}" >Next</a></li>
     </ul>
   </nav>
-  <div>
-    <div>ipaddr {{ ip_addr }}</div>
-    <div>ipaddrget {{ ipaddrget }}</div>
-    <div>ipaddrgetdefault {{ ipaddrgetdef }}</div>
-  </div>
 
   <div id="events_container" class="text-center" >
   {% for event in events_list %}
