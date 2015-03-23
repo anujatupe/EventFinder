@@ -18,7 +18,7 @@ def _get_events(request_params):
   request = urllib2.Request(events_url)
   response = urllib2.urlopen(request)
   resp_parsed = json.loads(response.read())
-  events_list = resp_parsed.get('events', None)
+  events_list = resp_parsed.get('events', [])
   return events_list, resp_parsed.get('pagination').get('page_count', 0)
 
 def _get_next_previous_event_urls(page, user_categories, page_count):
