@@ -16,9 +16,9 @@ def home(request):
   """Route for the landing page - choose the categories for the events to be searched
 
   Args:
-      request: request object
+    request: request object
   Returns:
-      Sends categories to the events page for getting the events related to the categories
+    Sends categories to the events page for getting the events related to the categories
   """
 
   form = CategoriesForm()
@@ -29,9 +29,9 @@ def events(request):
   """Route for the events page - displays the events belonging to the category selected by the user
 
   Args:
-      request: request object having get parameters. It has the category ids using which we search for events
+    request: request object having get parameters. It has the category ids using which we search for events
   Returns:
-      Renders a different page which has all the events related to the categories passed
+    Renders a different page which has all the events related to the categories passed
   """
 
   g = GeoIP()
