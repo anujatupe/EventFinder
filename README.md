@@ -13,4 +13,9 @@ Run tests using command: python manage.py test EventFinder <br>
 1) Install Django <br>
 2) Install MaxMind GeoIP C API <br>
 
+<b>Settings File</b> <br>
+1. settings.local and wsgi.local - If you need to install the app locally, you need to copy the contents of these files to settings.py and wsgi.py respectively <br>
+2. settings.prod and wsgi.prod - If you need to deploy this app, you need to copy the contents of these files to settings.py and wsgi.py respectively and then start the deploy
+
+
 
